@@ -133,7 +133,7 @@ func generatePosts(num int, users []*store.User) []*store.Post {
 		posts[i] = &store.Post{
 			UserID:  user.ID,
 			Title:   titles[rand.Intn(len(titles))],
-			Content: titles[rand.Intn(len(contents))],
+			Content: contents[rand.Intn(len(contents))],
 			Tags: []string{
 				tags[rand.Intn(len(tags))],
 				tags[rand.Intn(len(tags))],
