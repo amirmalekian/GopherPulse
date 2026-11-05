@@ -1,4 +1,4 @@
-module github.com/sikozonpc/social
+module github.com/amirmalekian/gopherpulse
 
 go 1.22.0
 

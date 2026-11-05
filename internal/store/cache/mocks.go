@@ -3,7 +3,7 @@ package cache
 import (
 	"context"
 
-	"github.com/sikozonpc/social/internal/store"
+	"github.com/amirmalekian/gopherpulse/internal/store"
 	"github.com/stretchr/testify/mock"
 )
 

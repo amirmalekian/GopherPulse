@@ -8,7 +8,7 @@ import (
 
 	"math/rand"
 
-	"github.com/sikozonpc/social/internal/store"
+	"github.com/amirmalekian/gopherpulse/internal/store"
 )
 
 var usernames = []string{

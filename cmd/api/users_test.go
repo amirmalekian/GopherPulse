@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/sikozonpc/social/internal/store/cache"
+	"github.com/amirmalekian/gopherpulse/internal/store/cache"
 	"github.com/stretchr/testify/mock"
 )
 

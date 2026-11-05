@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/sikozonpc/social/internal/db"
-	"github.com/sikozonpc/social/internal/env"
-	"github.com/sikozonpc/social/internal/store"
+	"github.com/amirmalekian/gopherpulse/internal/db"
+	"github.com/amirmalekian/gopherpulse/internal/env"
+	"github.com/amirmalekian/gopherpulse/internal/store"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/sikozonpc/social/internal/store"
+	"github.com/amirmalekian/gopherpulse/internal/store"
 )
 
 // getUserFeedHandler godoc

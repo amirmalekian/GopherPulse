@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/amirmalekian/gopherpulse/internal/store"
 	"github.com/go-redis/redis/v8"
-	"github.com/sikozonpc/social/internal/store"
 )
 
 type UserStore struct {

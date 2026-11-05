@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/amirmalekian/gopherpulse/internal/store"
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/sikozonpc/social/internal/store"
 )
 
 func (app *application) AuthTokenMiddleware(next http.Handler) http.Handler {

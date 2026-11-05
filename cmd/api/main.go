@@ -5,14 +5,14 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/amirmalekian/gopherpulse/internal/auth"
+	"github.com/amirmalekian/gopherpulse/internal/db"
+	"github.com/amirmalekian/gopherpulse/internal/env"
+	"github.com/amirmalekian/gopherpulse/internal/mailer"
+	"github.com/amirmalekian/gopherpulse/internal/ratelimiter"
+	"github.com/amirmalekian/gopherpulse/internal/store"
+	"github.com/amirmalekian/gopherpulse/internal/store/cache"
 	"github.com/go-redis/redis/v8"
-	"github.com/sikozonpc/social/internal/auth"
-	"github.com/sikozonpc/social/internal/db"
-	"github.com/sikozonpc/social/internal/env"
-	"github.com/sikozonpc/social/internal/mailer"
-	"github.com/sikozonpc/social/internal/ratelimiter"
-	"github.com/sikozonpc/social/internal/store"
-	"github.com/sikozonpc/social/internal/store/cache"
 	"go.uber.org/zap"
 )
 

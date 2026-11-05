@@ -5,10 +5,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/sikozonpc/social/internal/auth"
-	"github.com/sikozonpc/social/internal/ratelimiter"
-	"github.com/sikozonpc/social/internal/store"
-	"github.com/sikozonpc/social/internal/store/cache"
+	"github.com/amirmalekian/gopherpulse/internal/auth"
+	"github.com/amirmalekian/gopherpulse/internal/ratelimiter"
+	"github.com/amirmalekian/gopherpulse/internal/store"
+	"github.com/amirmalekian/gopherpulse/internal/store/cache"
 	"go.uber.org/zap"
 )
 

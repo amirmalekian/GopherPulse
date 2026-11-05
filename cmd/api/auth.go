@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/amirmalekian/gopherpulse/internal/mailer"
+	"github.com/amirmalekian/gopherpulse/internal/store"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
-	"github.com/sikozonpc/social/internal/mailer"
-	"github.com/sikozonpc/social/internal/store"
 )
 
 type RegisterUserPayload struct {
